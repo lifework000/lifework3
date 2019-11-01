@@ -1,0 +1,92 @@
+/*全体----------------*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#top{
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;;
+}
+/*header------------------------*/
+section{
+  background: #EEEEEE;
+}
+header.nav-top{
+  background: inherit;
+  height: 90px;
+}
+.nav-list{
+  z-index: 20px;
+  font-size: 16.8px;
+  font-weight: 400;
+  background-color: #EEEEEE;
+}
+.nav-list ul{
+  text-align: center;
+  padding-top: 10px;
+}
+.nav-list li{
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 26px 20px 20px 10px;
+}
+.nav-list a{
+  text-decoration: none;
+  color: #00CC99;
+}
+.btn2{
+  transition: color 0.3s;
+}
+
+.btn4{
+  position: relative;
+  transition: color 0.3s;
+}
+
+.btn2:hover{
+  color: #008000;
+}
+
+.btn4:hover{
+  color: #008000;
+}
+/*main---------------------------------*/
+.main{
+  background-color: white;
+  height: 600px;
+}
+.main-title{
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px ;
+  padding-right: 20px;
+}
+.about-text{
+  margin: 30px 0;
+  text-align: center;
+  line-height: 2.5;
+  margin-top: 80px;
+}
+/*footer---------------------------------*/
+.footer{
+  background-color: #EEEEEE;
+  padding-top:10px;
+}
+.footer-list a{
+  text-decoration-line: none;
+  color: #00CC99;
+}
+.footer-list li{
+  text-align: center;
+  list-style: none;
+  padding-bottom: 20px;
+}
+ .footer p{
+  padding: 5px 0;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.btn:hover{
+  color: #008000;
+  transition: color 0.3s;
+}
